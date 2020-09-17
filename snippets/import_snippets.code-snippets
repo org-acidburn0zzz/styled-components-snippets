@@ -1,0 +1,90 @@
+{
+    "Import Styled Components": {
+        "prefix": "ims",
+        "body": ["import styled from 'styled-components';", "$0"]
+    },
+    "Import Styled Components & Component": {
+        "prefix": "imsc",
+        "body": [
+            "import styled from 'styled-components';\n",
+            "const ${1:Styled${2:$TM_FILENAME_BASE}} = styled.div`",
+            "\t$3",
+            "`;",
+            "$0"
+        ]
+    },
+    "Export Styled Components": {
+        "prefix": "imsce",
+        "body": [
+            "import styled from 'styled-components';\n",
+            "const ${1:Styled${2:$TM_FILENAME_BASE}} = styled.div`",
+            "\t$3",
+            "`;",
+            "$0",
+            "export default ${2:$TM_FILENAME_BASE};"
+        ]
+    },
+    "Import Styled createGlobalStyle": {
+        "prefix": "imsg",
+        "body": ["import { createGlobalStyle } from 'styled-components';", "$0"]
+    },
+    "Import Styled createGlobalStyle & Component": {
+        "prefix": "imsgc",
+        "body": [
+            "import { createGlobalStyle } from 'styled-components';\n",
+            "const GlobalStyle = createGlobalStyle`",
+            "\tbody{",
+            "\t\t$1",
+            "\t}",
+            "`;",
+            "$0"
+        ]
+    },
+    "Fully Import React Stateless Component & Styled Components": {
+        "prefix": "imsr",
+        "body": [
+            "import React from 'react';",
+            "import styled from 'styled-components';\n",
+            "const ${1:Styled${2:$TM_FILENAME_BASE}} = styled.div`",
+            "\t$3",
+            "`;\n",
+            "const ${2:$TM_FILENAME_BASE} = () => {",
+            "\treturn (",
+            "\t\t<${1:Styled${2:$TM_FILENAME_BASE}}>",
+            "\t\t\t$0",
+            "\t\t</${1:Styled${2:$TM_FILENAME_BASE}}>",
+            "\t)",
+            "};\n",
+            "export default ${2:$TM_FILENAME_BASE};"
+        ],
+        "description": "Fully Import Stateless Component & Styled Components"
+    },
+    "Fully Import React Class Component & Styled Components": {
+        "prefix": "imsrc",
+        "body": [
+            "import React, { Component } from 'react';",
+            "import styled from 'styled-components';\n",
+            "const ${1:Styled${2:$TM_FILENAME_BASE}} = styled.div`",
+            "\t$3",
+            "`;\n",
+            "class ${2:$TM_FILENAME_BASE} extends Component {",
+            "\tconstructor(props) {",
+            "\t\tsuper(props);",
+            "\t\tthis.state = {",
+            "\t\t\t$4",
+            "\t\t};",
+            "\t}",
+            "\trender() {",
+            "\t\treturn (",
+            "\t\t\t<${1:Styled${2:$TM_FILENAME_BASE}}>",
+            "\t\t\t\t$5",
+            "\t\t\t</${1:Styled${2:$TM_FILENAME_BASE}}>",
+            "\t\t);",
+            "\t}",
+            "}",
+            "$0",
+            "export default ${2:$TM_FILENAME_BASE};"
+        ],
+        "description": "Fully Import Class Component & Styled Components"
+    }
+}

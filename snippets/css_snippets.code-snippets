@@ -1,0 +1,6 @@
+{
+    "Styled Component Props": {
+        "prefix": "scp",
+        "body": ["${props => props.theme.${1:property}};"]
+    }
+}

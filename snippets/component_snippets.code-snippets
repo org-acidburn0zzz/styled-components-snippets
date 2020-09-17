@@ -1,0 +1,262 @@
+{
+    "Styled Component": {
+        "prefix": "sc",
+        "body": [
+            "const ${1:Styled${2:Component}} = styled.$3`",
+            "\t$4",
+            "`;",
+            "$0"
+        ]
+    },
+    "Export Styled Component": {
+        "prefix": "sce",
+        "body": [
+            "import styled from 'styled-components';\n",
+            "const ${1:Styled${2:Component}} = styled.$3`",
+            "\t$4",
+            "`;",
+            "$0",
+            "export default ${1:Styled${2:Component}};"
+        ]
+    },
+    "Styled Anchor": {
+        "prefix": "sca",
+        "body": ["const ${1:Anchor} = styled.a`", "\t$2", "`;", "$0"]
+    },
+    "Export Styled Anchor": {
+        "prefix": "scae",
+        "body": [
+            "import styled from 'styled-components';\n",
+            "const ${1:Anchor} = styled.a`",
+            "\t$2",
+            "`;",
+            "$0",
+            "export default ${1:Anchor};"
+        ]
+    },
+    "Styled Button": {
+        "prefix": "scb",
+        "body": ["const ${1:Button} = styled.button`", "\t$2", "`;", "$0"]
+    },
+    "Export Styled Button": {
+        "prefix": "scbe",
+        "body": [
+            "import styled from 'styled-components';\n",
+            "const ${1:Button} = styled.button`",
+            "\t$2",
+            "`;",
+            "$0",
+            "export default ${1:Button};"
+        ]
+    },
+    "Styled Div": {
+        "prefix": "scd",
+        "body": ["const ${1:Div} = styled.div`", "\t$2", "`;", "$0"]
+    },
+    "Export Styled Div": {
+        "prefix": "scde",
+        "body": [
+            "import styled from 'styled-components';\n",
+            "const ${1:Div} = styled.div`",
+            "\t$2",
+            "`;",
+            "$0",
+            "export default ${1:Div};"
+        ]
+    },
+    "Styled H1": {
+        "prefix": "sch1",
+        "body": ["const ${1:H1} = styled.h1`", "\t$2", "`;", "$0"]
+    },
+    "Export Styled H1": {
+        "prefix": "sch1e",
+        "body": [
+            "import styled from `styled-components`;\n",
+            "const ${1:H1} = styled.h1`",
+            "\t$2",
+            "`;",
+            "$0",
+            "export default ${1:H1};"
+        ]
+    },
+    "Styled H2": {
+        "prefix": "sch2",
+        "body": ["const ${1:H2} = styled.h2`", "\t$2", "`;", "$0"]
+    },
+    "Export Styled H2": {
+        "prefix": "sch2e",
+        "body": [
+            "import styled from `styled-components`;\n",
+            "const ${1:H2} = styled.h2`",
+            "\t$2",
+            "`;",
+            "$0",
+            "export default ${1:H2};"
+        ]
+    },
+    "Styled H3": {
+        "prefix": "sch3",
+        "body": ["const ${1:H3} = styled.h3`", "\t$2", "`;", "$0"]
+    },
+    "Export Styled H3": {
+        "prefix": "sch3e",
+        "body": [
+            "import styled from `styled-components`;\n",
+            "const ${1:H3} = styled.h3`",
+            "\t$2",
+            "`;",
+            "$0",
+            "export default ${1:H3};"
+        ]
+    },
+    "Styled H4": {
+        "prefix": "sch4",
+        "body": ["const ${1:H4} = styled.h4`", "\t$2", "`;", "$0"]
+    },
+    "Export Styled H4": {
+        "prefix": "sch4e",
+        "body": [
+            "import styled from `styled-components`;\n",
+            "const ${1:H4} = styled.h4`",
+            "\t$2",
+            "`;",
+            "$0",
+            "export default ${1:H4};"
+        ]
+    },
+    "Styled H5": {
+        "prefix": "sch5",
+        "body": ["const ${1:H5} = styled.h5`", "\t$2", "`;", "$0"]
+    },
+    "Export Styled H5": {
+        "prefix": "sch5e",
+        "body": [
+            "import styled from `styled-components`;\n",
+            "const ${1:H5} = styled.h5`",
+            "\t$2",
+            "`;",
+            "$0",
+            "export default ${1:H5};"
+        ]
+    },
+    "Styled H6": {
+        "prefix": "sch6",
+        "body": ["const ${1:H6} = styled.h6`", "\t$2", "`;", "$0"]
+    },
+    "Export Styled H6": {
+        "prefix": "sch6e",
+        "body": [
+            "import styled from `styled-components`;\n",
+            "const ${1:H6} = styled.h6`",
+            "\t$2",
+            "`;",
+            "$0",
+            "export default ${1:H6};"
+        ]
+    },
+    "Styled Image": {
+        "prefix": "scimg",
+        "body": ["const ${1:IMG} = styled.img`", "\t$2", "`;", "$0"]
+    },
+    "Export Styled Image": {
+        "prefix": "scimge",
+        "body": [
+            "import styled from 'styled-components';\n",
+            "const ${1:IMG} = styled.img`",
+            "\t$2",
+            "`;",
+            "$0",
+            "export default ${1:IMG};"
+        ]
+    },
+    "Styled Input": {
+        "prefix": "scin",
+        "body": ["const ${1:Input} = styled.input`", "\t$2", "`;", "$0"]
+    },
+    "Export Styled Input": {
+        "prefix": "scine",
+        "body": [
+            "import styled from 'styled-components';\n",
+            "const ${1:Input} = styled.input`",
+            "\t$2",
+            "`;",
+            "$0",
+            "export default ${1:Input};"
+        ]
+    },
+    "Styled List Item": {
+        "prefix": "scli",
+        "body": ["const ${1:LI} = styled.li`", "\t$2", "`;", "$0"]
+    },
+    "Export Styled List Item": {
+        "prefix": "sclie",
+        "body": [
+            "import styled from 'styled-components';\n",
+            "const ${1:LI} = styled.li`",
+            "\t$2",
+            "`;",
+            "$0",
+            "export default ${1:LI};"
+        ]
+    },
+    "Styled Ordered Lists": {
+        "prefix": "scol",
+        "body": ["const ${1:OL} = styled.ol`", "\t$2", "`;", "$0"]
+    },
+    "Export Styled Ordered Lists": {
+        "prefix": "scole",
+        "body": [
+            "import styled from 'styled-components';\n",
+            "const ${1:OL} = styled.ol`",
+            "\t$2",
+            "`;",
+            "$0",
+            "export default ${1:OL};"
+        ]
+    },
+    "Styled Paragraph": {
+        "prefix": "scp",
+        "body": ["const ${1:Paragraph} = styled.p`", "\t$2", "`;", "$0"]
+    },
+    "Export Styled Paragraph": {
+        "prefix": "scpe",
+        "body": [
+            "import styled from 'styled-components';\n",
+            "const ${1:Paragraph} = styled.p`",
+            "\t$2",
+            "`;",
+            "$0",
+            "export default ${1:Paragraph};"
+        ]
+    },
+    "Styled Span": {
+        "prefix": "scs",
+        "body": ["const ${1:Span} = styled.span`", "\t$2", "`;", "$0"]
+    },
+    "Export Styled Span": {
+        "prefix": "scse",
+        "body": [
+            "import styled from 'styled-components';\n",
+            "const ${1:Span} = styled.span`",
+            "\t$2",
+            "`;",
+            "$0",
+            "export default ${1:Span};"
+        ]
+    },
+    "Styled Unordered Lists": {
+        "prefix": "scul",
+        "body": ["const ${1:UL} = styled.ul`", "\t$2", "`;", "$0"]
+    },
+    "Export Styled Unordered Lists": {
+        "prefix": "scule",
+        "body": [
+            "import styled from 'styled-components';\n",
+            "const ${1:UL} = styled.ul`",
+            "\t$2",
+            "`;",
+            "$0",
+            "export default ${1:UL};"
+        ]
+    }
+}

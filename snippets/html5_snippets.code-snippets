@@ -1,0 +1,107 @@
+{
+    "Styled Nav": {
+        "prefix": "scn",
+        "body": ["const ${1:Nav} = styled.nav`", "\t$2", "`;", "$0"]
+    },
+    "Export Styled Nav": {
+        "prefix": "scne",
+        "body": [
+            "import styled from 'styled-components';\n",
+            "const ${1:Nav} = styled.nav`",
+            "\t$2",
+            "`;",
+            "$0",
+            "export default ${1:Nav};"
+        ]
+    },
+    "Styled Header": {
+        "prefix": "sch",
+        "body": ["const ${1:Header} = styled.header`", "\t$2", "`;", "$0"]
+    },
+    "Export Styled Header": {
+        "prefix": "sche",
+        "body": [
+            "import styled from 'styled-components';\n",
+            "const ${1:Header} = styled.header`",
+            "\t$2",
+            "`;",
+            "$0",
+            "export default ${1:Header};"
+        ]
+    },
+    "Styled Main": {
+        "prefix": "scm",
+        "body": ["const ${1:Main} = styled.main`", "\t$2", "`;", "$0"]
+    },
+    "Export Styled Main": {
+        "prefix": "scme",
+        "body": [
+            "import styled from 'styled-components';\n",
+            "const ${1:Main} = styled.main`",
+            "\t$2",
+            "`;",
+            "$0",
+            "export default ${1:Main};"
+        ]
+    },
+    "Styled Article": {
+        "prefix": "sca",
+        "body": ["const ${1:Article} = styled.article`", "\t$2", "`;", "$0"]
+    },
+    "Export Styled Article": {
+        "prefix": "scae",
+        "body": [
+            "import styled from 'styled-components';\n",
+            "const ${1:Article} = styled.article`",
+            "\t$2",
+            "`;",
+            "$0",
+            "export default ${1:Article};"
+        ]
+    },
+    "Styled Section": {
+        "prefix": "scsec",
+        "body": ["const ${1:Section} = styled.section`", "\t$2", "`;", "$0"]
+    },
+    "Export Styled Section": {
+        "prefix": "scsece",
+        "body": [
+            "import styled from 'styled-components';\n",
+            "const ${1:Section} = styled.section`",
+            "\t$2",
+            "`;",
+            "$0",
+            "export default ${1:Section};"
+        ]
+    },
+    "Styled Footer": {
+        "prefix": "scfoo",
+        "body": ["const ${1:Footer} = styled.footer`", "\t$2", "`;", "$0"]
+    },
+    "Export Styled Footer": {
+        "prefix": "scfooe",
+        "body": [
+            "import styled from 'styled-components';\n",
+            "const ${1:Footer} = styled.footer`",
+            "\t$2",
+            "`;",
+            "$0",
+            "export default ${1:Footer};"
+        ]
+    },
+    "Styled Form": {
+        "prefix": "scf",
+        "body": ["const ${1:Form} = styled.form`", "\t$2", "`;", "$0"]
+    },
+    "Export Styled Form": {
+        "prefix": "scfe",
+        "body": [
+            "import styled from 'styled-components';\n",
+            "const ${1:Form} = styled.form`",
+            "\t$2",
+            "`;",
+            "$0",
+            "export default ${1:Form};"
+        ]
+    }
+}

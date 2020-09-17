@@ -1,0 +1,72 @@
+{
+    "name": "styled-components-snippets",
+    "displayName": "Styled Components Snippets",
+    "description": "Snippets for styled-components",
+    "version": "0.0.1",
+    "publisher": "Richard D. Shin",
+    "engines": {
+        "vscode": "^1.49.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/component_snippets.code-snippets"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/component_snippets.code-snippets"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/component_snippets.code-snippets"
+            },
+            {
+                "language": "typescriptreact",
+                "path": "./snippets/component_snippets.code-snippets"
+            },
+            {
+                "language": "css",
+                "path": "./snippets/css_snippets.code-snippets"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/html5_snippets.code-snippets"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/html5_snippets.code-snippets"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/html5_snippets.code-snippets"
+            },
+            {
+                "language": "typescriptreact",
+                "path": "./snippets/html5_snippets.code-snippets"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/import_snippets.code-snippets"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/import_snippets.code-snippets"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/import_snippets.code-snippets"
+            },
+            {
+                "language": "typescriptreact",
+                "path": "./snippets/import_snippets.code-snippets"
+            }
+        ]
+    },
+    "__metadata": {
+        "publisherDisplayName": "Richard D. Shin"
+    }
+}
