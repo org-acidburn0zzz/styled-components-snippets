@@ -1,9 +1,11 @@
 {
-    "name": "styled-components-snippets-ultimate",
+    "name": "styled-components-snippets",
     "displayName": "Ultimate Styled Components Snippets",
-    "description": "Advanced Snippets for styled-components",
-    "version": "1.0.3",
+    "description": "Advanced snippets for styled-components",
+    "version": "1.0.1",
     "publisher": "richarddshin",
+    "license": "MIT",
+    "icon": "icon.png",
     "repository": {
         "type": "git",
         "url": "https://github.com/miwoju/styled-components-snippets"
@@ -17,7 +19,9 @@
     "keywords": [
         "styled",
         "styled-components",
+        "styled-components-snippets",
         "snippets",
+        "styled components",
         "javascript",
         "react",
         "snippet",
@@ -33,7 +37,6 @@
     "categories": [
         "Snippets"
     ],
-    "icon": "icon.png",
     "contributes": {
         "snippets": [
             {
