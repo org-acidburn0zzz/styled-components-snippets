@@ -4,6 +4,10 @@
     "description": "Snippets for styled-components",
     "version": "0.0.1",
     "publisher": "Richard D. Shin",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/miwoju/styled-components-snippets"
+    },
     "engines": {
         "vscode": "^1.49.0"
     },
