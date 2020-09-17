@@ -1,3 +1,5 @@
 node_modules
 *.vsix
 .vscode
+icon.png
+vsc-extension-quickstart.md

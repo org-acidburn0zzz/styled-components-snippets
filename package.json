@@ -1,19 +1,36 @@
 {
-    "name": "styled-components-snippets",
-    "displayName": "Styled Components Snippets",
-    "description": "Snippets for styled-components",
-    "version": "0.0.1",
-    "publisher": "Richard D. Shin",
+    "name": "styled-components-snippets-ultimate",
+    "displayName": "Ultimate Styled Components Snippets",
+    "description": "Advanced Snippets for styled-components",
+    "version": "1.0.2",
+    "publisher": "richarddshin",
     "repository": {
         "type": "git",
         "url": "https://github.com/miwoju/styled-components-snippets"
     },
     "engines": {
-        "vscode": "^1.49.0"
+        "vscode": "^1.40.0"
     },
+    "keywords": [
+        "styled",
+        "styled-components",
+        "snippets",
+        "javascript",
+        "react",
+        "snippet",
+        "styled-jsx",
+        "reactjs",
+        "js",
+        "jsx",
+        "css",
+        "scss",
+        "typescript",
+        "ts"
+    ],
     "categories": [
         "Snippets"
     ],
+    "icon": "icon.png",
     "contributes": {
         "snippets": [
             {
@@ -69,8 +86,5 @@
                 "path": "./snippets/import_snippets.code-snippets"
             }
         ]
-    },
-    "__metadata": {
-        "publisherDisplayName": "Richard D. Shin"
     }
 }
