@@ -2,11 +2,14 @@
     "name": "styled-components-snippets-ultimate",
     "displayName": "Ultimate Styled Components Snippets",
     "description": "Advanced Snippets for styled-components",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "publisher": "richarddshin",
     "repository": {
         "type": "git",
         "url": "https://github.com/miwoju/styled-components-snippets"
+    },
+    "bugs": {
+        "url": "https://github.com/miwoju/styled-components-snippets/issues"
     },
     "engines": {
         "vscode": "^1.40.0"
